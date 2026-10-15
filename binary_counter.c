@@ -6,8 +6,9 @@ int main(){
   uint8_t count=0;
   
   while(1){
-  	if(count == 16)
+  	if(count == 16){
   		count = 0;
+    }
     PORTD = (count<<2);
     count++;
     _delay_ms(500);
