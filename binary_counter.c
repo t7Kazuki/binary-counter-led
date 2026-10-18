@@ -19,5 +19,6 @@ int main(){
     count++;
     
     _delay_ms(500);
+  }
   return 0;
 }
